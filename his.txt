@@ -1,0 +1,182 @@
+history
+    1  pacman -S mingw-w64-ucrt-x86_64-gcc
+    2  install vim
+    3  --help
+    4  install --help
+    5  gcc --version
+    6  gcc --version
+    7  pacman -S mingw-w64-ucrt-x86_64-gcc
+    8  pacman
+    9  pacman -h
+   10  paste
+   11  diff -u lista-1.txt lista-2.txt > roznice.patch
+   12  diff
+   13  -bash
+   14  diff -bash
+   15  md5sum
+   16  diff -u lista-1.txt lista-2.txt > roznice.patch
+   17  gcc --version
+   18  pacman -S mingw-w64-ucrt-x86_64-gcc
+   19  gcc --version
+   20  pacman -h
+   21  pacman -v
+   22  -h
+   23  pacman -S diffutils
+   24  diff -u lista-1.txt lista-2.txt > roznice.patch
+   25  diff -u lista-1.txt lista-2.txt > roznice.patch
+   26  diff -u lista-1.txt lista-2.txt > roznice.patch
+   27  diff -u lista-1.txt lista-2.txt > roznice.patch
+   28  unzip
+   29  cat unzip
+   30  cat unzip dane.txt
+   31  cat dane.txt
+   32  cat
+   33  cat dane.txt
+   34  cat
+   35  dos2unix lista.txt
+   36  dos2unix lista.txt
+   37  sudo apt-get update
+   38  -dos2unix lista.txt
+   39  sudo apt-get update
+   40  sudo apt-get install dos2unix
+   41  unzip lista.txt
+   42  unzip lista.zip
+   43  unzip lista.zip
+   44  pacman vim
+   45  -h
+   46  pacman -h
+   47  pacman -D
+   48  pacman -U
+   49  pacman -U vim
+   50  pacman -U nano
+   51  pacman -S vim
+   52  pacman -S nano
+   53  pacman -S less
+   54  pacman -S diffutils
+   55  pacman -S zip
+   56  pacman -S unzip
+   57  pacman -S dos2unix
+   58  pacman -S patch
+   59  pacman -S mingw-w64-urct-x86_64-imagemagick
+   60  pacman -S imagemagick
+   61  pacman -S mingw-w64-urct-x86_64-imagemagick
+   62  pacman -S mingw-w64-urct-x86_64-imagemagick
+   63  unzip lista.zip
+   64  unzip dane.zip
+   65  unzip dane.zip
+   66  unzip csv.zip
+   67  unzip lista.zip
+   68  dos2unix lista.txt
+   69  dos2unix lista-pop.txt
+   70  diff lista.txt lista-pop.txt
+   71  md5sum lista.txt
+   72  md5sum lista-pop.txt
+   73  unzip csv.zip
+   74  delete csv.zip
+   75  remove csv.zip
+   76  dos2unix steps-2sql.csv
+   77  save
+   78  quit
+   79  exit
+   80  pacman -S mingw-w64-x86_64-imagemagick
+   81  done
+   82  exit
+   83  magick -version
+   84  magick -version
+   85  pacman -S mingw-w64-x86_64-imagemagick
+   86  close
+   87  exit
+   88  magick -version
+   89  history
+   90  for plik in wszystkie_zdjecia/*; do base=$(basename "$plik"); magick "$plik" -resize x720 -units PixelsPerInch -density 96x96 "przetworzone/${base%.*}.jpg"; done
+   91  find kopie-1 kopie-2 -type f
+   92  find kopie-1 kopie-2 -name '*.zip' -exec unzip -d wszystkie_zdjecia {} \;
+   93  ls wszystkie_zdjecia
+   94  for plik in wszystkie_zdjecia/*; do base=$(basename "$plik"); magick "$plik" -resize x720 -units PixelsPerInch -density 96x96 "przetworzone/${base%.*}.jpg"; done
+   95  mkdir -p przetworzone
+   96  for plik in wszystkie_zdjecia/*.{jpg,png,JPG,PNG}; do [ -f "$plik" ] || continue; magick "$plik" -resize x720 -units PixelsPerInch -density 96x96 "przetworzone/$(basename "${plik%.*}").jpg"; done
+   97  magick "$plik" -resize x720\! -units PixelsPerInch -density 96x96 "przetworzone/$(basename "${plik%.*}").jpg"
+   98  zip -r gotowe_zdjecia.zip przetworzone
+   99  exit
+  100  pacman -S
+  101  pacman -h
+  102  pacman -F
+  103  pacman -D
+  104  pacman -Fy
+  105  pacman -F
+  106  pacman -S
+  107  pacman -S mingw-w64-x86_64-imagemagick
+  108  montage
+  109  montage -geometry +10+10 -tile 2x4 -label '%f' -pointsize 10 -font Arial \przetworzone/*.jpg \ -page A4 portfolio.jpg
+  110  pacman -S imagemagick
+  111  find przetworzone -type f | sort | paste -d - - - - - - - - > pliki8.txt
+  112  awk '{print "magick \\"
+  113  " ( "$1" -resize 600x400 -label \""$1"\" -pointsize 20 ) \\"
+  114  " ( "$2" -resize 600x400 -label \""$2"\" -pointsize 20 ) \\"
+  115  " ( "$3" -resize 600x400 -label \""$3"\" -pointsize 20 ) \\"
+  116  " ( "$4" -resize 600x400 -label \""$4"\" -pointsize 20 ) \\"
+  117  " ( "$5" -resize 600x400 -label \""$5"\" -pointsize 20 ) \\"
+  118  " ( "$6" -resize 600x400 -label \""$6"\" -pointsize 20 ) \\"
+  119  " ( "$2" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  120  " ( "$7" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  121  " ( "$8" -resize 600x400 -label \""$8"\" -pointsize 20 ) \\"
+  122  " -tile 2x4 -geometry +20+20 -background white -page A4 strona_"NR".pdf"}' pliki8.txt | sh
+  123  awk '{print "magick \\"
+  124  " ( "$1" -resize 600x400 -label \""$1"\" -pointsize 20 ) \\"
+  125  " ( "$2" -resize 600x400 -label \""$2"\" -pointsize 20 ) \\"
+  126  " ( "$3" -resize 600x400 -label \""$3"\" -pointsize 20 ) \\"
+  127  " ( "$4" -resize 600x400 -label \""$4"\" -pointsize 20 ) \\"
+  128  " ( "$5" -resize 600x400 -label \""$5"\" -pointsize 20 ) \\"
+  129  " ( "$6" -resize 600x400 -label \""$6"\" -pointsize 20 ) \\"
+  130  " ( "$7" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  131  " ( "$8" -resize 600x400 -label \""$8"\" -pointsize 20 ) \\"
+  132  " -tile 2x4 -geometry +20+20 -background white -page A4 strona_"NR".pdf"}' pliki8.txt | sh
+  133  which magick
+  134  awk '{print "/usr/bin/core_perl \\"
+  135  " ( "$1" -resize 600x400 -label \""$1"\" -pointsize 20 ) \\"
+  136  " ( "$2" -resize 600x400 -label \""$2"\" -pointsize 20 ) \\"
+  137  " ( "$3" -resize 600x400 -label \""$3"\" -pointsize 20 ) \\"
+  138  " ( "$4" -resize 600x400 -label \""$4"\" -pointsize 20 ) \\"
+  139  " ( "$5" -resize 600x400 -label \""$5"\" -pointsize 20 ) \\"
+  140  " ( "$6" -resize 600x400 -label \""$6"\" -pointsize 20 ) \\"
+  141  " ( "$7" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  142  " ( "$8" -resize 600x400 -label \""$8"\" -pointsize 20 ) \\"
+  143  " -tile 2x4 -geometry +20+20 -background white -page A4 strona_"NR".pdf"}' pliki8.txt | sh
+  144  which -a magick
+  145  MAGICK_PATH=$(which -a magick | head -n1)
+  146  awk -v MAGICK="$MAGICK_PATH" '{print MAGICK" \\"
+  147  " ( "$1" -resize 600x400 -label \""$1"\" -pointsize 20 ) \\"
+  148  " ( "$2" -resize 600x400 -label \""$2"\" -pointsize 20 ) \\"
+  149  " ( "$3" -resize 600x400 -label \""$3"\" -pointsize 20 ) \\"
+  150  " ( "$4" -resize 600x400 -label \""$4"\" -pointsize 20 ) \\"
+  151  " ( "$5" -resize 600x400 -label \""$5"\" -pointsize 20 ) \\"
+  152  " ( "$6" -resize 600x400 -label \""$6"\" -pointsize 20 ) \\"
+  153  " ( "$7" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  154  " ( "$8" -resize 600x400 -label \""$8"\" -pointsize 20 ) \\"
+  155  " -tile 2x4 -geometry +20+20 -background white -page A4 strona_"NR".pdf"}' pliki8.txt | sh$MAGICK_PA
+  156  magick strona_*.pdf portfolio.pdf
+  157  pacman -S mingw-w64-x86_64-imagemagick
+  158  $MAGICK_PATH strona_*.pdf portfolio.pdf
+  159  MAGICK_PATH=$(which -a magick | head -n1)
+  160  $MAGICK_PATH strona_*.pdf portfolio.pdf
+  161  restart
+  162  exit
+  163  cd przetworzone
+  164  ls
+  165  history
+  166  MAGICK_PATH=$(which -a magick | head -n1)
+  167  awk -v MAGICK="$MAGICK_PATH" '{print MAGICK" \\"
+  168    147  " ( "$1" -resize 600x400 -label \""$1"\" -pointsize 20 ) \\"
+  169    148  " ( "$2" -resize 600x400 -label \""$2"\" -pointsize 20 ) \\"
+  170    149  " ( "$3" -resize 600x400 -label \""$3"\" -pointsize 20 ) \\"
+  171    150  " ( "$4" -resize 600x400 -label \""$4"\" -pointsize 20 ) \\"
+  172    151  " ( "$5" -resize 600x400 -label \""$5"\" -pointsize 20 ) \\"
+  173    152  " ( "$6" -resize 600x400 -label \""$6"\" -pointsize 20 ) \\"
+  174    153  " ( "$7" -resize 600x400 -label \""$7"\" -pointsize 20 ) \\"
+  175    154  " ( "$8" -resize 600x400 -label \""$8"\" -pointsize 20 ) \\"
+  176    155  " -tile 2x4 -geometry +20+20 -background white -page A4 strona_"NR".pdf"}' pliki8.txt | sh$MAGICK_PATH
+  177  magick strona_*.pdf portfolio.pdf
+  178  pacman -S zip
+  179  zip pliki.zip przetworzone lista lista-pop new old only-new pliki8 csv gotowe_zdjecia lista tlumacz en-7.2.json5 en-7.4.json5 pl-7.2.json5 pl-7.4.json5 roznice.patch steps-2csv.sql stepsData.sql steps-2sql
+  180  historu
+  181  history
