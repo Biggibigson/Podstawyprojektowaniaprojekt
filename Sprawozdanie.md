@@ -18,7 +18,7 @@ Zadanie polegało na odpowiednim przekształceniu pliku tekstowego z danymi, aby
 - Komenda `paste - - - < dane.txt` została użyta do rozdzielenia danych na trzy kolumny.
 - Instrukcja `echo "X Y Z"` posłużyła do dodania nazw kolumn.
 
-### Komendy
+### Wykonanie
 ```
 cat dane.txt
 paste - - - < dane.txt
@@ -41,7 +41,7 @@ Celem zadania było porównanie dwóch wersji pliku tekstowego – oryginalnego 
 - Użyto komendy diff, aby wygenerować plik różnic (lista.patch).
 - Wyniki zapisano do pliku `lisat-pop.txt`.
 
-### Komendy
+### Wykonanie
 ```
 diff -u lista.txt lista-pop.txt > lista.patch
 patch lista.txt lista.patch
