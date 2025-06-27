@@ -52,7 +52,7 @@ Komenda diff skutecznie wygenerowała różnice w plikach, co umożliwiło łatw
 
 ---
 
-## Zadanie 5 – Formatowanie danych (cat, paste, echo)
+## Zadanie 5 – CSV -> SQL
 
 #### Cel zadania
 Zadanie miało na celu przetworzenie pliku steps-2sql.csv, zawierającego dane z trzech kolumn (time, intensity, steps) oddzielonych średnikami, na format SQL gotowy do importu do bazy danych.
